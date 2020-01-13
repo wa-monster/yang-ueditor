@@ -1,11 +1,27 @@
 {
-  "name": "yangupload",
-  "version": "0.1.0",
-  "private": true,
+  "name": "yang-ueditor-vue",
+  "version": "0.1.5",
+  "description": "yang-ueditor-vue test",
+  "private": false,
+  "main":"lib/yang-ueditor-vue.umd.min.js",
+  "author": "wa-monster",
   "scripts": {
+    "lib":"vue-cli-service build --target lib --name yang-ueditor-vue --dest lib packages/index.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
+  "files":[
+    "lib",
+    "src"
+  ],
+  "keywords":[
+    "vue",
+    "ueditor",
+    "UEditor",
+    "test"
+  ],
+  "license":"MIT",
+  
   "dependencies": {
     "core-js": "^3.4.4",
     "vue": "^2.6.10"

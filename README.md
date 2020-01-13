@@ -13,7 +13,7 @@ npm install yang-ueditor-vue --save
 
 ### use
 ```
-下载UEditor jsp版本 或者用我提供的，放到publick下
+下载UEditor jsp版本 或者用我提供的 https://github.com/wa-monster/yang-ueditor 的public目录下，放到对应项目的public下
 
 import '../public/UEditor/ueditor.config.js'
 import '../public/UEditor/ueditor.all.js'

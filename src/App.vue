@@ -1,28 +1,52 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div>
+      <yang-editor
+        ref="ue"
+        :default-msg="description"
+        :config="config"
+        :id="uEditor"></yang-editor>
+    </div>
+    
+      <p>{{ description }}</p>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+
 
 export default {
   name: 'app',
-  components: {
-    HelloWorld
+  data:function () {
+    return {
+      description:'',
+      uEditor:'uEditor',
+      config:{
+        toolbars:[['undo']],
+				autoHeightEnabled: false,
+				initialFrameHeight:200,
+				initialFrameWidth: '99%',
+				wordCount:true,
+				maximumWords:1000,
+				allHtmlEnabled:false,
+				pasteplain:true,
+				retainOnlyLabelPasted: true,
+        enableAutoSave:false,
+        initialStyle:'p{' +
+						'font-family: Microsoft YaHei;' +
+						'font-size: 14px;' +
+					'};',
+      }
+    }
+  },
+  mounted(){
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app{
+    height: 800px;
+  }
 </style>
