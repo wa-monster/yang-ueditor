@@ -1,5 +1,7 @@
 # 测试用，不要下载     yangueditor
 
+- 那个啥，我这个是拿来做测试的，没必要下载的。
+
 
 
 ```
@@ -13,7 +15,8 @@ npm install yang-ueditor-vue --save
 
 ### use
 ```
-下载UEditor jsp版本 或者用我提供的 https://github.com/wa-monster/yang-ueditor 的public目录下，放到对应项目的public下
+下载UEditor jsp版本 或者用我提供的 
+https://github.com/wa-monster/yang-ueditor 的public目录下，放到对应项目的public下
 
 import '../public/UEditor/ueditor.config.js'
 import '../public/UEditor/ueditor.all.js'

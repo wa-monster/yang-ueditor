@@ -1,6 +1,6 @@
 {
   "name": "yang-ueditor-vue",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "yang-ueditor-vue test",
   "private": false,
   "main":"lib/yang-ueditor-vue.umd.min.js",
