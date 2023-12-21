@@ -1,38 +1,26 @@
 {
-  "name": "yang-ueditor-vue",
-  "version": "0.1.6",
-  "description": "yang-ueditor-vue test",
-  "private": false,
-  "main":"lib/yang-ueditor-vue.umd.min.js",
-  "author": "wa-monster",
-  "scripts": {
-    "lib":"vue-cli-service build --target lib --name yang-ueditor-vue --dest lib packages/index.js",
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
-  },
-  "files":[
-    "lib",
-    "src"
-  ],
-  "keywords":[
-    "vue",
-    "ueditor",
-    "UEditor",
-    "test"
-  ],
-  "license":"MIT",
-  
-  "dependencies": {
-    "core-js": "^3.4.4",
-    "vue": "^2.6.10"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.1.0",
-    "@vue/cli-service": "^4.1.0",
-    "vue-template-compiler": "^2.6.10"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ]
+	"name": "yang-ueditor",
+	"version": "1.0.1",
+	"description": "",
+	"main": "lib/yang-ueditor-vue.umd.min.js",
+	"directories": {
+		"example": "example",
+		"lib": "lib"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wa-monster/yang-ueditor.git"
+	},
+	"keywords": [
+		"ueditor"
+	],
+	"author": "wa-monster",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/wa-monster/yang-ueditor/issues"
+	},
+	"homepage": "https://github.com/wa-monster/yang-ueditor#readme"
 }
